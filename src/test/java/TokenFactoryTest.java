@@ -1,4 +1,4 @@
-import Factory.TokenFactory;
+import trademe.domain.valueObjects.TokenFactory;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

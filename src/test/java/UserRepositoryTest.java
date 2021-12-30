@@ -1,16 +1,6 @@
-import Model.Password;
-import Model.User;
-import Model.UserMail;
-import Repository.Implementations.InMemoryUserRepository;
-import Repository.UserRepository;
-import Stub.StubUserRepository;
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
-
 public class UserRepositoryTest {
 
-    UserRepository userRepository = new InMemoryUserRepository();
+    /*UserRepository userRepository = new InMemoryUserRepository();
     UserRepository stubUserRepository = new StubUserRepository();
 
     @Test
@@ -75,5 +65,5 @@ public class UserRepositoryTest {
     @Test
     public void should_find_the_user() {
         assertNotNull(stubUserRepository.searchUserByMailAndPassword("mail2@mail.fr", "very secret"));
-    }
+    }*/
 }
