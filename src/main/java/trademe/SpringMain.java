@@ -25,7 +25,7 @@ import java.util.List;
 
 @SpringBootApplication
 public class SpringMain {
-    public static void main(String[] args) throws UnavailableEmailException {
+    public static void main(String[] args) {
         final ConfigurableApplicationContext applicationContext = SpringApplication.run(SpringMain.class, args);
 
         //--1. Create Tradesman

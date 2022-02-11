@@ -5,100 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72676b2c-6850-414a-be38-aa7ea28d5a77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TradeMe.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/SpringMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/UserConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/command/LoginUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/command/LoginUserCommandHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/command/LoginUserEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/command/LoginUserEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/command/LogoutUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/command/LogoutUserCommandHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/command/LogoutUserEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/command/LogoutUserEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/command/ModifyUserPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/command/ModifyUserPasswordCommandHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/command/ModifyUserPasswordEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/command/ModifyUserPasswordEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/command/RegisterContractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/command/RegisterContractorCommandHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/command/RegisterContractorEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/command/RegisterContractorEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/command/RegisterTradesman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/command/RegisterTradesmanCommandHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/command/RegisterTradesmanEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/command/RegisterTradesmanEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/query/RetrieveUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/query/RetrieveUserHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/query/RetrieveUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/application/query/RetrieveUsersHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/domain/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/domain/Contractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/domain/GeographicZone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/domain/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/domain/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/domain/Tradesman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/domain/enums/AptitudeCertificates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/domain/enums/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/domain/enums/Skills.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/domain/enums/Speciality.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/domain/valueObjects/DailyRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/domain/valueObjects/Password.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/domain/valueObjects/Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/domain/valueObjects/UserId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/domain/valueObjects/UserMail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/exposition/PasswordResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/infrastructure/DefaultEventDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/infrastructure/FakePaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/infrastructure/InMemoryUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/infrastructure/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/infrastructure/PaymentTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/infrastructure/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/kernel/ApplicationEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/kernel/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/kernel/CommandBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/kernel/CommandHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/kernel/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/kernel/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/kernel/EventDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/kernel/EventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/kernel/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/kernel/QueryBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/kernel/QueryHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/kernel/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/kernel/SimpleCommandBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/kernel/SimpleQueryBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/kernel/ValueObjectID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/kernel/exceptions/NoSuchEntityException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trademe/kernel/exceptions/UnavailableEmailException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/TokenFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trademe/domain/valueObjects/TokenFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Password.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Token.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/UserMail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Implementations/InMemoryUserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trademe/infrastructure/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Stub/StubUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stub/StubUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TokenFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TokenFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Factory/TokenFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Password.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Token.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/UserMail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/Implementations/InMemoryUserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Stub/StubUserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TokenFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TokenFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UserRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UserRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TradeMe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TradeMe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trademe/SpringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trademe/SpringMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TPS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../3AL/Projet-Annuel-Pick-This-Up/API Node JS/PickThisUpAPI" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -160,17 +69,6 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="trademe.Main" />
       <module name="TradeMe" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -211,6 +109,9 @@
       <workItem from="1640692528948" duration="2678000" />
       <workItem from="1640778627427" duration="146000" />
       <workItem from="1640779002967" duration="10662000" />
+      <workItem from="1641984070689" duration="53000" />
+      <workItem from="1642530962657" duration="1092000" />
+      <workItem from="1644142574394" duration="147000" />
     </task>
     <servers />
   </component>
